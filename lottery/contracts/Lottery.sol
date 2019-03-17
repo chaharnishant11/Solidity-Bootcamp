@@ -29,7 +29,7 @@ contract Lottery {
         _;
     }
 
-    function grtPlayers() public view returns (address[]) {
+    function getPlayers() public view returns (address[]) {
         return players;
     }
 }
